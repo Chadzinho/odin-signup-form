@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign-Up Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="logo-banner">
+                    <img
+                        src="amazonas-logo.png"
+                        alt="Amazonas Toucan Logo"
+                        class="logo"
+                    />
+                    <h1>AMAZONAS</h1>
+                </div>
+                <div class="photo-cred">
+                    Photo by
+                    <a href="https://unsplash.com/@bruthethe" target="_blank"
+                        >Bruno Tethe</a
+                    >
+                    on Unsplash
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="intro">
+                    <p>
+                        This is not a real online service! You know you need
+                        something like this in your life to help you realize
+                        your deepest dreams!
+                    </p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+
+                <form action="#" method="post">
+                    <h2>Let's do this!</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">FIRST NAME</label>
+                            <input
+                                type="text"
+                                id="first-name"
+                                name="first-name"
+                                placeholder=" "
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">LAST NAME</label>
+                            <input
+                                type="text"
+                                id="last-name"
+                                name="last-name"
+                                placeholder=" "
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder=" "
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder=" "
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">PASSWORD</label>
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder=" "
+                                required
+                                minlength="8"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">CONFIRM PASSWORD</label>
+                            <input
+                                type="password"
+                                id="confirm-password"
+                                name="confirm-password"
+                                placeholder=" "
+                                required
+                                minlength="8"
+                            />
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Create Account
+                    </button>
+                </form>
+
+                <div class="login-link">
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
